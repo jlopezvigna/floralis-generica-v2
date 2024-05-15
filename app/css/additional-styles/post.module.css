@@ -1,0 +1,33 @@
+.post {
+    @apply text-justify;
+}
+
+.post p {
+    @apply my-4;
+}
+
+.post h2 {
+    @apply text-2xl font-extrabold leading-tight tracking-tighter;
+}
+
+.post h3 {
+    @apply text-lg text-gray-800 font-bold leading-tight;
+}
+
+.post h4 {
+    @apply text-base text-gray-800 font-bold leading-tight;
+}
+
+.post a {
+    @apply text-orange-500 hover:text-orange-800 transition duration-150 ease-in-out;
+}
+
+.post ul {
+    padding-left: 2em;
+    margin-bottom: 16px;
+    list-style: circle;
+}
+
+.post p img {
+    @apply my-4 w-full;
+}
