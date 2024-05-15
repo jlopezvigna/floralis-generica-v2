@@ -16,7 +16,7 @@ export default function Header() {
                         <Link href="/" className="block" aria-label="Floralis Generica Logo">
                             <Image
                                 aria-hidden="true"
-                                src={FloralisLogo}
+                                src={'/images/logo/floralis-color.png'}
                                 height={0}
                                 width={0}
                                 style={{ width: '40px', height: 'auto' }}
