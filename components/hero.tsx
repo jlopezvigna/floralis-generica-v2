@@ -1,6 +1,6 @@
 import BookMeeting from '@/components/ui/book-meeting';
 import Button from '@/components/ui/button';
-import VideoThumb from '@/public/images/hero-image-01.jpg';
+// import VideoThumb from '@/public/images/hero-image-01.jpg';
 import Image from 'next/image';
 
 export default function Hero() {
@@ -75,7 +75,7 @@ export default function Hero() {
                             data-aos-delay="200"
                         >
                             <Image
-                                src={VideoThumb}
+                                src={'images/hero-image-01.jpg'}
                                 width={1024}
                                 height={576}
                                 quality={100}

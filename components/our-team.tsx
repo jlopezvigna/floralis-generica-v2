@@ -25,7 +25,7 @@ export default function OurTeam() {
                                 <div className="relative inline-flex flex-col mb-4">
                                     <Image
                                         className="rounded-full"
-                                        src={TestimonialImage01}
+                                        src={'images/testimonial-01.jpg'}
                                         width={48}
                                         height={48}
                                         alt="Testimonial 01"
@@ -57,7 +57,7 @@ export default function OurTeam() {
                                 <div className="relative inline-flex flex-col mb-4">
                                     <Image
                                         className="rounded-full"
-                                        src={TestimonialImage02}
+                                        src={'images/testimonial-02.jpg'}
                                         width={48}
                                         height={48}
                                         alt="Testimonial 02"
@@ -88,7 +88,7 @@ export default function OurTeam() {
                                 <div className="relative inline-flex flex-col mb-4">
                                     <Image
                                         className="rounded-full"
-                                        src={TestimonialImage03}
+                                        src={'images/testimonial-03.jpg'}
                                         width={48}
                                         height={48}
                                         alt="Testimonial 03"

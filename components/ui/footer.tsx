@@ -1,5 +1,5 @@
 'use client';
-import FloralisLogo from '@/public/images/logo/floralis-color.png';
+// import FloralisLogo from '@/public/images/logo/floralis-color.png';
 import { AppRoute } from '@/routesEnum';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -18,7 +18,7 @@ export default function Footer() {
                                 <Link href="/" className="inline-block" aria-label="Floralis Generica Logo">
                                     <Image
                                         aria-hidden="true"
-                                        src={FloralisLogo}
+                                        src={'images/logo/floralis-color.png'}
                                         height={0}
                                         width={0}
                                         style={{ width: '40px', height: 'auto' }}

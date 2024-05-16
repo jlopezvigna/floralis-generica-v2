@@ -1,4 +1,4 @@
-import FloralisLogo from '@/public/images/logo/floralis-color.png';
+// import FloralisLogo from '@/public/images/logo/floralis-color.png';
 import Image from 'next/image';
 import Link from 'next/link';
 import CustomLink from '@/components/custom-link';
@@ -16,7 +16,7 @@ export default function Header() {
                         <Link href="/" className="block" aria-label="Floralis Generica Logo">
                             <Image
                                 aria-hidden="true"
-                                src={'/images/logo/floralis-color.png'}
+                                src={'images/logo/floralis-color.png'}
                                 height={0}
                                 width={0}
                                 style={{ width: '40px', height: 'auto' }}
