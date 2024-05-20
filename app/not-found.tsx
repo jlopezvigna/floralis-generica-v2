@@ -13,7 +13,7 @@ export default function NotFound() {
                         <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
                             <Image
                                 className="mx-auto md:max-w-none rounded-full"
-                                src={'images/dog-not-found.jpeg'}
+                                src={'images/dog-not-found-2.gif'}
                                 width={250}
                                 height={250}
                                 alt="Features 01"
