@@ -3,7 +3,7 @@ const nextConfig = {
     distDir: 'build',
     output: 'export',
     images: { unoptimized: true },
-    trailingSlash: false,
+    trailingSlash: true,
 };
 
 module.exports = nextConfig;
