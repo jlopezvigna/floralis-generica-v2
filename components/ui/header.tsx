@@ -4,6 +4,7 @@ import Link from 'next/link';
 import CustomLink from '@/components/custom-link';
 import BookMeeting from '@/components/ui/book-meeting';
 import MobileMenu from '@/components/ui/mobile-menu';
+import { AppRoute } from '@/routesEnum';
 
 export default function Header() {
     return (
@@ -64,7 +65,7 @@ export default function Header() {
                             </li>
                             <li>
                                 <CustomLink
-                                    href="/blogs"
+                                    href={`${AppRoute.BLOGS}`}
                                     className="font-medium text-gray-900 hover:underline px-4 flex items-center transition duration-150 ease-in-out"
                                 >
                                     Blogs

@@ -1,6 +1,6 @@
 export enum AppRoute {
     ROOT = '/',
     HOME = '/',
-    BLOGS = '/blogs',
+    BLOGS = 'blogs',
     PRIVACY_POLICY = '/privacy-policy',
 }
